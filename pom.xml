@@ -20,11 +20,6 @@
             <artifactId>jcommon</artifactId>
             <version>1.0.23</version>
         </dependency>
-        <dependency>
-            <groupId>edu.ceu</groupId>
-            <artifactId>CEU-programming2</artifactId>
-            <version>1.0</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/org.jopendocument/jOpenDocument -->
         <dependency>
             <groupId>org.jopendocument</groupId>
@@ -51,7 +46,6 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>edu.ceu.programming.graphics_example.GraphicsExampleApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
