@@ -6,6 +6,18 @@ import java.util.*;
 import java.util.List;
 import javax.swing.Timer;
 
+/*
+PROMPT (DeepSeek):
+Create an educational Java app that lets students create and visualize a
+graph data structure (unweighted and not-directional),
+displaying the adjacency matrix while the user creates the graph.
+The input of the user can be text-based, e.g. A->B, and then B->C.
+Finally, it allows a step-by-step visualization of traversals
+Depth-First Search (DFS) and Breadth-First Search (BFS).
+The app must include a visual representation of the graph, with nodes and archs.
+The app is just for educational purposes, so the graphs won't be very big
+ */
+
 public class GraphVisualizer extends JFrame {
     private Map<Character, List<Character>> graph;
     private JTextArea inputArea, traversalArea;
